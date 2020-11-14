@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>galaxia espiral</title>
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    <link rel="stylesheet" href="../static/css/tresColumnas.css">
 </head>
 <body>
     <header>
@@ -12,21 +14,31 @@
 
     <nav>
         <ul>
-            <li><a href="../index.html">Pagina Principal</a></li>
-            <li><a href="teoria.html">Teoria sobre el origen del universo</a></li>
-            <li><a href="galaxia-eliptica.html">Galaxias Elípticas</a></li>
-            <li><a href="galaxia-lenticular.html">Galaxias Lenticulares</a></li>
-            <li><a href="galaxia-espiral.html">Galaxias Espirales</a></li>
-            <li><a href="galaxia-barrada.html">Galaxia Espiral Barrada</a></li>
-            <li><a href="galaxia-irregular.html">Galaxia Irregulares</a></li>
-            <li><a href="sonido-espacio.html">Sonidos del espacio</a></li> 
-            
+            <li class="menu"><a href="../index.html">Pagina Principal</a></li>
+            <li class="menu"><a href="teoria.html">Teoria sobre el origen del universo</a></li>
+            <li class="menu"><a href="galaxia-eliptica.html">Galaxias Elípticas</a></li>
+            <li class="menu"><a href="galaxia-lenticular.html">Galaxias Lenticulares</a></li>
+            <li class="menu"><a href="galaxia-espiral.html">Galaxias Espirales</a></li>
+            <li class="menu"><a href="galaxia-barrada.html">Galaxia Espiral Barrada</a></li>
+            <li class="menu"><a href="galaxia-irregular.html">Galaxia Irregulares</a></li>
+            <li class="menu"><a href="sonido-espacio.html">Sonidos del espacio</a></li> 
+            <li class="menu"><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
     <section>
         <h1>Galaxias Espirales</h1>
-        <article>
+        <article class="col-izquierda">
+            <h1>Caracteristicas</h1>
+            <ol>
+                <li class="fondo">El pico de la CR varía entre 150 y 300 km/s</li>
+                <li class="fondo">Las galaxias mayores rotan más rápido</li>
+                <li class="fondo">CR sube más bruscamente para las Sa y Sb que para las Sd y Sm</li>
+                <li class="fondo">La mayoría de las galaxias de bajo brillo superficial rotan lentamente.</li>
+            </ol>  
+          </article>
+
+        <article class="col-izquierda">
             <p>Están constituidas por un núcleo central y dos o más 
                 brazos en espiral, que parten del núcleo. Este se 
                 halla formado por multitud de estrellas y apenas 
@@ -35,26 +47,12 @@
                 cantidad de estrellas jóvenes, que son muy brillantes. 
                 Alrededor del 75 % de las galaxias del universo son de 
                 este tipo</p>
-        </article>
-        <aside>
-            <img src="../imges/espiral.jpg" alt="espiral">
-        </aside>
-    </section>
-
-    <section>
-        <article>
-          <h1>Caracteristicas</h1>
-          <ol>
-              <li>El pico de la CR varía entre 150 y 300 km/s</li>
-              <li>Las galaxias mayores rotan más rápido</li>
-              <li>CR sube más bruscamente para las Sa y Sb que para las Sd y Sm</li>
-              <li>La mayoría de las galaxias de bajo brillo superficial rotan lentamente.</li>
-          </ol>  
-        </article>
-        <aside>
             <img src="../imges/galespiral.jpg" alt="espiral">
+        </article>
+
+        <aside class="col-izquierda">
+            <img src="../imges/espiral.jpg" alt="espiral" id="final">
         </aside>
-    </section>
 
     <!-- pie de pagina -->
 

@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>galaxia espiral</title>
+    <title>Teorias</title>
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    <link rel="stylesheet" href="../static/css/dosColumnas.css">
 </head>
 <body>
     <header>
@@ -12,21 +14,70 @@
 
     <nav>
         <ul>
-            <li><a href="../index.html">Pagina Principal</a></li>
-            <li><a href="teoria.html">Teoria sobre el origen del universo</a></li>
-            <li><a href="galaxia-eliptica.html">Galaxias Elípticas</a></li>
-            <li><a href="galaxia-lenticular.html">Galaxias Lenticulares</a></li>
-            <li><a href="galaxia-espiral.html">Galaxias Espirales</a></li>
-            <li><a href="galaxia-barrada.html">Galaxia Espiral Barrada</a></li>
-            <li><a href="galaxia-irregular.html">Galaxia Irregulares</a></li>
-            <li><a href="sonido-espacio.html">Sonidos del espacio</a></li> 
-            
+            <li class="menu"><a href="../index.html">Pagina Principal</a></li>
+            <li class="menu"><a href="teoria.html">Teoria sobre el origen del universo</a></li>
+            <li class="menu"><a href="galaxia-eliptica.html">Galaxias Elípticas</a></li>
+            <li class="menu"><a href="galaxia-lenticular.html">Galaxias Lenticulares</a></li>
+            <li class="menu"><a href="galaxia-espiral.html">Galaxias Espirales</a></li>
+            <li class="menu"><a href="galaxia-barrada.html">Galaxia Espiral Barrada</a></li>
+            <li class="menu"><a href="galaxia-irregular.html">Galaxia Irregulares</a></li>
+            <li class="menu"><a href="sonido-espacio.html">Sonidos del espacio</a></li> 
+            <li class="menu"><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
     <section>
-        <h1>Teoria de la creacion del universo</h1>
-        <article>
+        <article class="izquierda">
+            <h1>Otras teorias</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <td rowspan="2">TEORIA</td>
+                        <td colspan="2">INFORMACIÓN</td>
+                    </tr>
+                    <tr>
+                        <td>DESCUBRIDOR</td>
+                        <td> AÑO</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Big Bang</td>
+                        <td><cite>George Lamaître</cite> </td>
+                        <td>1927</td>
+                    </tr>
+                    <tr>
+                        <td>inflacionaria</td>
+                        <td><cite>Alan Guth</cite></td>
+                        <td>1981</td>
+                    </tr>
+                    <tr>
+                        <td>estado estacionario</td>
+                        <td><cite>James Jeans</cite></td>
+                        <td>1930</td>
+                    </tr>
+                    <tr>
+                        <td>universo oscilante</td>
+                        <td><cite>Richard Tolman</cite></td>
+                        <td>1960</td>
+                    </tr>
+                    <tr>
+                        <td>Creación</td>
+                        <td><cite>Charles Darwin</cite></td>
+                        <td>siglo XIX</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <aside>
+                <br>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/nSHwS487eC0" frameborder="0"></iframe>
+            </aside>
+        </article>
+
+
+        <article class="derecha">
+            <h1>Teoria de la creacion del universo</h1>
             <p>El hecho de que el universo esté en expansión se deriva de las 
                 observaciones del corrimiento al rojo realizadas en la década 
                 de 1920 y que se cuantifican por la ley de Hubble. Dichas 
@@ -45,69 +96,11 @@
                     remarcablemente uniforme en todas direcciones, circunstancia 
                     que los cosmólogos han intentado explicar como reflejo de un 
                     periodo temprano de inflación cósmica después del Big Bang.</p>
+                <aside>
+                    <img src="../imges/bigban.jpg" alt="big bang">
+                </aside>
         </article>
-        <aside>
-            <img src="../imges/bigban.jpg" alt="big bang">
-        </aside>
-    </section>
-
-    <section>
-        <article>
-            <h1>Otras teorias</h1>
-            <table class="tabla-origen">
-                <tr>
-                    <th>AÑO</th>
-                    <th>INFORMACIÓN</th>
-                </tr>
-                <table>
-                    <thead>
-                        <tr>
-                            <td rowspan="2">TEORIA</td>
-                            <td colspan="2">INFORMACIÓN</td>
-                        </tr>
-                        <tr>
-                            <td>DESCUBRIDOR</td>
-                            <td> AÑO</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Big Bang</td>
-                            <td><cite>George Lamaître</cite> </td>
-                            <td>1927</td>
-                        </tr>
-                        <tr>
-                            <td>inflacionaria</td>
-                            <td><cite>Alan Guth</cite></td>
-                            <td>1981</td>
-                        </tr>
-                        <tr>
-                            <td>estado estacionario</td>
-                            <td><cite>James Jeans</cite></td>
-                            <td>1930</td>
-                        </tr>
-                        <tr>
-                            <td>universo oscilante</td>
-                            <td><cite>Richard Tolman</cite></td>
-                            <td>1960</td>
-                        </tr>
-                        <tr>
-                            <td>Creación</td>
-                            <td><cite>Charles Darwin</cite></td>
-                            <td>siglo XIX</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </table>
-        </article>
-
-        <aside>
-            <br>
-            <iframe width="300" height="300" src="https://www.youtube.com/embed/nSHwS487eC0" frameborder="0"></iframe>
-            <img src="../imges/origen.jpg" alt="">
-        </aside>
-    </section>
-
+</section>
 
 <!-- pie de pagina -->
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galaxia Eliptica</title>
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    <link rel="stylesheet" href="../static/css/tresColumnas.css">
 </head>
 <body>
     <header>
@@ -12,46 +14,42 @@
 
     <nav>
         <ul>
-            <li><a href="../index.html">Pagina Principal</a></li>
-            <li><a href="teoria.html">Teoria sobre el origen del universo</a></li>
-            <li><a href="galaxia-eliptica.html">Galaxias Elípticas</a></li>
-            <li><a href="galaxia-lenticular.html">Galaxias Lenticulares</a></li>
-            <li><a href="galaxia-espiral.html">Galaxias Espirales</a></li>
-            <li><a href="galaxia-barrada.html">Galaxia Espiral Barrada</a></li>
-            <li><a href="galaxia-irregular.html">Galaxia Irregulares</a></li>
-            <li><a href="sonido-espacio.html">Sonidos del espacio</a></li> 
-            
+            <li class="menu"><a href="../index.html">Pagina Principal</a></li>
+            <li class="menu"><a href="teoria.html">Teoria sobre el origen del universo</a></li>
+            <li class="menu"><a href="galaxia-eliptica.html">Galaxias Elípticas</a></li>
+            <li class="menu"><a href="galaxia-lenticular.html">Galaxias Lenticulares</a></li>
+            <li class="menu"><a href="galaxia-espiral.html">Galaxias Espirales</a></li>
+            <li class="menu"><a href="galaxia-barrada.html">Galaxia Espiral Barrada</a></li>
+            <li class="menu"><a href="galaxia-irregular.html">Galaxia Irregulares</a></li>
+            <li class="menu"><a href="sonido-espacio.html">Sonidos del espacio</a></li> 
+            <li class="menu"><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
     <section>
+        
         <h1>Galaxias Elipticas</h1>
-        <article>
+        <article class="col-izquierda">
+            <h1>Caracteristicas</h1>
+            <ol>
+                <li class="fondo"> Ausencia o insignificante <b>momento angular</b></li>
+                <li class="fondo"> Ausencia o insignificante cantidad de materia interestelar </li>
+                <li class="fondo"> Compuestas sobre todo por estrellas antiguas</li>
+                <li class="fondo"> Concentración de luz central</li>
+                <li class="fondo"> Poblaciones <dfn>estelares</dfn></li>
+            </ol>
+        </article>
+        <article class="col-izquierda">
             <p>En forma de elipse o de esferoide, se caracterizan por 
                 carecer de una estructura interna definida y por 
                 presentar muy poca materia <i>interestelar</i> . 
                 Se consideran las más antiguas del universo, ya 
                 que sus estrellas son viejas y se encuentran en una 
                 fase muy avanzada de su evolución.</p>
+                <img src="../imges/eliptica.jpg" alt="galaxia-eliptica">
         </article>
-        <aside>
-            <img src="../imges/eliptica.jpg" alt="galaxia-eliptica">
-        </aside>
-    </section>
-
-    <section>
-        <article>
-            <h1>Caracteristicas</h1>
-            <ol>
-                <li> Ausencia o insignificante <b>momento angular</b></li>
-                <li> Ausencia o insignificante cantidad de materia interestelar </li>
-                <li> Compuestas sobre todo por estrellas antiguas</li>
-                <li> Concentración de luz central</li>
-                <li> Poblaciones <dfn>estelares</dfn></li>
-            </ol>
-        </article>
-        <aside>
-            <img src="../imges/galeliptica.jpg" alt="">
+        <aside class="col-izquierda">
+            <img src="../imges/galeliptica.jpg" alt="" id="final">
         </aside>
     </section>
 
